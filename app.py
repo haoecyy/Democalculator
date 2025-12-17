@@ -22,7 +22,7 @@ if st.button("Calculate"):
       if num2 != 0 :
         result = num1 / num2 
       else:
-          "Error: Division by zero"
+          result = "Error: Division by zero"
 
     st.success(f"Result: {result}")
 
