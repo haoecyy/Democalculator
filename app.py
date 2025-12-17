@@ -4,7 +4,7 @@ import math
 # Title
 
 st.header("Scientific Functions")
-operation_sci = st.selectbox("Choose scientific operation", ["Square Root", "Power", "Sin", "Cos", "Tan","Log,"Ln" ])
+operation_sci = st.selectbox("Choose scientific operation", ["Square Root", "Power", "Sin", "Cos", "Tan","Log","Ln" ])
 
 value = st.number_input("Enter value", value=0.0)
 power = st.number_input("Enter power (if applicable)", value=2.0)
